@@ -15,4 +15,11 @@ module.exports = function (app) {
         
     });
 
+    app.get('/time', function (req, res) {
+        var json = {message: "Whattup", date: new Date()};
+        console.log(json);
+        res.json(json);
+        
+    });
+
 };
