@@ -5,7 +5,6 @@
   "author": "Jeff Sloyer <jbsloyer@us.ibm.com>",
   "main": "index.js",
   "scripts": {
-    "test": "grunt test",
     "start": "node index.js"
   },
   "engines": {
