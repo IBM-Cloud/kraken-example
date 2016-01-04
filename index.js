@@ -34,5 +34,8 @@ if (require.main === module) {
     });
 }
 
+//remove the following to disable tracking
+require("cf-deployment-tracker-client").track();
+
 
 module.exports = app;
