@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "kraken-js": "~0.7.0",
-    "express": "~3.4.4",
+    "express": "~3.x.x",
     "adaro": "~0.1.x",
     "nconf": "~0.6.8",
     "less": "~1.6.1",
