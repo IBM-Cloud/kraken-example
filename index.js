@@ -27,7 +27,7 @@ app.requestAfterRoute = function requestAfterRoute(server) {
 
 
 if (require.main === module) {
-    kraken.create(app).listen(process.env.VCAP_APP_PORT || 8000, function (err) {
+    kraken.create(app).listen(process.env.PORT || 8000, function (err) {
         if (err) {
             console.error(err.stack);
         }
